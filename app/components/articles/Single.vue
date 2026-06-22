@@ -6,9 +6,9 @@
       <BasicImage :data="data?.imgPreview" />
     </div>
     <div>
-      <p v-for="(p, pIndex) in data?.content" :key="pIndex" class="bg-red-200">
+      <p v-for="(p, pIndex) in data?.content" :key="pIndex" class="mt-4">
         <span
-          class="bg-red-100"
+          class="mt-4"
           v-for="(subp, subpIndex) in p?.children"
           :key="subpIndex"
         >
