@@ -36,6 +36,7 @@ export default defineNuxtConfig({
             primary: "#2563EB",
             secondary: "#111827",
             accent: "#F59E0B",
+            orange: "#ed5026",
           },
 
           fontFamily: {

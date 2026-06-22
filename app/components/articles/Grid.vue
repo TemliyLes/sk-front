@@ -12,8 +12,10 @@
 
 <script setup>
 import { useWebsiteStore } from "~/stores/data";
-import Image from "./basic/Image.vue";
+
 const websiteStore = useWebsiteStore();
 // console.log(websiteStore);
-websiteStore.fetchArticles();
+onMounted(() => {
+  websiteStore.fetchArticles();
+});
 </script>

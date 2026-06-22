@@ -1,11 +1,5 @@
 <template>
-  <div class="w-full h-36 relative rounded-md overflow-hidden">
-    <img
-      class="absolute inset-0 w-full h-full object-cover"
-      :src="fullURL"
-      alt=""
-    />
-  </div>
+  <img class="w-full h-full object-cover" :src="fullURL" alt="" />
 </template>
 
 <script setup>
